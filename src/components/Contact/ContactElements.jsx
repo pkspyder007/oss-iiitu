@@ -17,22 +17,27 @@ export const ContactHeading = styled.h1`
   line-height: 1.1;
   font-weight: 600;
   border-bottom: 5px solid #01bf71;
-
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
-  }
 `;
 
 export const IconColumn = styled.div`
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const ContactIconsWapper = styled.div`
-  width: 50%;
   display: flex;
   justify-self: flex-start;
   margin-bottom: 24px;
   padding: 24px;
+
+  @media screen and (max-width: 480px) {
+    padding: 12px;
+  }
 `;
 
 
@@ -45,5 +50,9 @@ export const ContactLinkText = styled.a`
   margin: auto 12px;
   text-decoration: none;
   color: white;
+
+  @media screen and (max-width: 480px) {
+    font-size: 24px;
+  }
 `;
 

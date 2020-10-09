@@ -8,8 +8,6 @@ import {
   IconColumn,
   ContactIcon,
   ContactIconsWapper,
-  ContactImg,
-  ContactWrapper,
 } from "./ContactElements";
 
 const Contact = () => {

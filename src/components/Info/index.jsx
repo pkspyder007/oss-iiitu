@@ -15,7 +15,6 @@ import {
   BtnWrap,
 } from "./InfoElements";
 
-import img1 from "../../images/info-1.png";
 
 const Info = (props) => {
   const {
@@ -36,7 +35,7 @@ const Info = (props) => {
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
-            <Column1>
+            <Column1> 
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{heading}</Heading>
@@ -49,7 +48,7 @@ const Info = (props) => {
                     spy={true}
                     exact="true"
                     offset={-80}
-                    primary={true}
+                    primary={1}
                   >
                     {buttonLabel}
                   </Button>

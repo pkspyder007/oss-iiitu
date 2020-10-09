@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Contact from '../components/Contact';
 import Hero from '../components/Hero';
 import Info from '../components/Info';
 import { homeObjOne, homeObjTwo } from '../components/Info/data';
@@ -20,6 +21,7 @@ const Home = () => {
       <Hero />
       <Info {...homeObjOne} />
       <Info {...homeObjTwo} />
+      <Contact />
     </>
   )
 }

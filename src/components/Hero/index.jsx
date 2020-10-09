@@ -8,7 +8,6 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
-  VideoBg,
   Img
 } from "./HeroElements";
 // import Video from "../../videos/video.mp4";
@@ -36,12 +35,11 @@ const Hero = () => {
             spy={true}
             exact="true"
             offset={-80}
-            hover={hover}
             onMouseEnter={onHover}
             onMouseLeave={onHover}
-            primary={true}
-            dark={false}
-            big={true}
+            primary={1}
+            dark={0}
+            big={1}
           >
             Learn More {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>

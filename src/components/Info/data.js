@@ -1,11 +1,11 @@
 
 export const homeObjOne = {
-  id: 'contact',
+  id: 'about',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
   topLine: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum',
-  heading: 'HEadingdfbdksjhikaha fjsdbfsdba',
+  heading: 'Some One or two words',
   description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus repellat dolorem ullam minus ad rerum totam molestias necessitatibus maxime iusto!',
   imgStart: false,
   buttonLabel: 'Get Started',
@@ -16,16 +16,16 @@ export const homeObjOne = {
   darkText: false
 }
 export const homeObjTwo = {
-  id: 'about',
+  id: 'about-2',
   lightBg: true,
   lightText: false,
   lightTextDesc: true,
   topLine: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum',
-  heading: 'HEadingdfbdksjhikaha fjsdbfsdba',
+  heading: 'Some One or two words',
   description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus repellat dolorem ullam minus ad rerum totam molestias necessitatibus maxime iusto!',
   imgStart: true,
   buttonLabel: 'Get Started',
-  img: require('../../images/info-2.svg'),
+  img: require('../../images/info-1.svg'),
   alt: 'some alt',
   dark: true,
   primary: true,

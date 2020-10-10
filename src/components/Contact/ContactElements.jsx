@@ -12,6 +12,7 @@ export const ContactContainer = styled.div`
 `;
 
 export const ContactHeading = styled.h1`
+  color: ${({dark}) => (dark ? '#000' : '#fff')};
   margin-bottom: 24px;
   font-size: 4rem;
   line-height: 1.1;
@@ -47,7 +48,7 @@ export const ContactIcon = styled.div`
 
 export const ContactLinkText = styled.a`
   font-size: 28px;
-  margin: auto 12px;
+  margin: 0 12px;
   text-decoration: none;
   color: white;
 

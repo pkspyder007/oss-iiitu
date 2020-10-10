@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Play:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Play:wght@400;700&display=swap'); */
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +7,40 @@
   font-family: 'Play', sans-serif;
 }
 
-p{
+/* p{
   font-family: 'Montserrat', sans-serif;
+} */
+
+.coc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background: #000;
+  width: 100%;
+  padding: 24px;
+}
+
+.coc img {
+  max-width: 460px;
+  max-height: 460px;
+}
+
+.coc .coc-main {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 24px;
+  width: 100%;
+}
+
+.coc .coc-main ul {
+  list-style: disc;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 12px;
+}
+
+.coc .coc-main ul li {
+  margin-bottom: 12px;
 }

@@ -3,7 +3,7 @@ import { ContactHeading } from "../Contact/ContactElements";
 
 const COC = () => {
   return (
-    <div class="coc" id="coc">
+    <div className="coc" id="coc">
       <div>
         <ContactHeading>Code Of Conduct</ContactHeading>
       </div>

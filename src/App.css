@@ -58,3 +58,11 @@
     font-size: 42px;
   }
 }
+
+@media screen and (max-width: 786px) {
+  .coc img {
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+  }
+}

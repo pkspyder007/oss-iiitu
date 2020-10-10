@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/oss-iiitu/static/css/main.251058d5.chunk.css",
+    "main.js": "/oss-iiitu/static/js/main.d1f97b3b.chunk.js",
+    "main.js.map": "/oss-iiitu/static/js/main.d1f97b3b.chunk.js.map",
+    "runtime-main.js": "/oss-iiitu/static/js/runtime-main.3d6eaa95.js",
+    "runtime-main.js.map": "/oss-iiitu/static/js/runtime-main.3d6eaa95.js.map",
+    "static/js/2.a397dc1a.chunk.js": "/oss-iiitu/static/js/2.a397dc1a.chunk.js",
+    "static/js/2.a397dc1a.chunk.js.map": "/oss-iiitu/static/js/2.a397dc1a.chunk.js.map",
+    "index.html": "/oss-iiitu/index.html",
+    "precache-manifest.f338ab4f03b35d37f3570c3b616a4796.js": "/oss-iiitu/precache-manifest.f338ab4f03b35d37f3570c3b616a4796.js",
+    "service-worker.js": "/oss-iiitu/service-worker.js",
+    "static/css/main.251058d5.chunk.css.map": "/oss-iiitu/static/css/main.251058d5.chunk.css.map",
+    "static/js/2.a397dc1a.chunk.js.LICENSE.txt": "/oss-iiitu/static/js/2.a397dc1a.chunk.js.LICENSE.txt",
+    "static/media/community.svg": "/oss-iiitu/static/media/community.d4624ffe.svg",
+    "static/media/event-1.1.jpg": "/oss-iiitu/static/media/event-1.1.bcb3c1e9.jpg",
+    "static/media/head.jpg": "/oss-iiitu/static/media/head.981ecf14.jpg",
+    "static/media/info-1.svg": "/oss-iiitu/static/media/info-1.2114cea1.svg",
+    "static/media/info-3.svg": "/oss-iiitu/static/media/info-3.f5774c5e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d6eaa95.js",
+    "static/js/2.a397dc1a.chunk.js",
+    "static/css/main.251058d5.chunk.css",
+    "static/js/main.d1f97b3b.chunk.js"
+  ]
+}

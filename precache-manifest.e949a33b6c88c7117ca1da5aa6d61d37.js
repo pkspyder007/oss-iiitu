@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ba35a47c8d730dc9e468c474d6d5198",
+    "revision": "5e2b1c4bf3a9ee003d8de1ca9b553fe3",
     "url": "/oss-iiitu/index.html"
   },
   {
-    "revision": "77166b8c02e08df125e5",
-    "url": "/oss-iiitu/static/css/main.251058d5.chunk.css"
+    "revision": "4d6384bd583e79c62209",
+    "url": "/oss-iiitu/static/css/main.a33a661d.chunk.css"
   },
   {
-    "revision": "60c52d82869a38d76ae4",
-    "url": "/oss-iiitu/static/js/2.a397dc1a.chunk.js"
+    "revision": "4e1249d4360f5e231a6f",
+    "url": "/oss-iiitu/static/js/2.de520028.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/oss-iiitu/static/js/2.a397dc1a.chunk.js.LICENSE.txt"
+    "url": "/oss-iiitu/static/js/2.de520028.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "77166b8c02e08df125e5",
-    "url": "/oss-iiitu/static/js/main.d1f97b3b.chunk.js"
+    "revision": "4d6384bd583e79c62209",
+    "url": "/oss-iiitu/static/js/main.1b599c9b.chunk.js"
   },
   {
     "revision": "419a76daa6d1d1382a26",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bcb3c1e950fb0552b86eedd052f5f309",
     "url": "/oss-iiitu/static/media/event-1.1.bcb3c1e9.jpg"
+  },
+  {
+    "revision": "64409d627875fe1853f33375f66e4bac",
+    "url": "/oss-iiitu/static/media/event-2.64409d62.jpg"
   },
   {
     "revision": "981ecf144f1a4b9324c1afca37ecd422",

@@ -1,13 +1,13 @@
 import React from "react";
 import { ContactHeading } from "../Contact/ContactElements";
 import { Heading, Subtitle, TopLine } from "../Info/InfoElements";
-import { eventOne } from "./data";
+import { eventOne, eventTwo } from "./data";
 import {
   EventContainer,
   EventWrapper,
   EventImg,
   EventInfo,
-  EventInfoContainer, BtnGrp, EventBtn
+  EventInfoContainer, BtnGrp, EventBtn, EventSubtitle
 } from "./EventElements";
 
 const Event = () => {
@@ -17,8 +17,11 @@ const Event = () => {
         <ContactHeading dark={true}>Events</ContactHeading>
       </>
       <EventWrapper>
-        <EventCard {...eventOne} />
+        <EventCard {...eventTwo} />
       </EventWrapper>
+      {/* <EventWrapper>
+        <EventCard {...eventOne} />
+      </EventWrapper> */}
     </EventContainer>
   );
 };
@@ -34,7 +37,7 @@ const EventCard = ({ id, img, heading, description, topLine, links }) => {
           <div>
             <TopLine>{topLine}</TopLine>
             <Heading>{heading}</Heading>
-            <Subtitle darkText={true}>{description}</Subtitle>
+            <EventSubtitle darkText={true}>{description}</EventSubtitle>
           </div>
           <BtnGrp>
             {links.map((el, i) => (

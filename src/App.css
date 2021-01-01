@@ -23,6 +23,13 @@
   padding: 24px;
 }
 
+@media screen and (max-width: 600px) {
+  .coc {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .coc img {
   max-width: 460px;
   max-height: 460px;

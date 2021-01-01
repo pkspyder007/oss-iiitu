@@ -23,6 +23,7 @@ export const EventInfo = styled.div`
 `;
 
 export const EventImg = styled.img`
+  min-width: 35vw;
   max-height: ${({maxHeight}) => (`${maxHeight}px`)};
   padding: 0 24px;
   margin-right: 32px;
@@ -38,6 +39,22 @@ export const EventImg = styled.img`
 export const EventInfoContainer = styled.div`
   display: flex;
   flex-direction: column;
+  max-width: 50vw; 
+
+  @media screen and (max-width: 768px) {
+    max-width:80vw;
+  }
+`;
+
+export const EventSubtitle = styled.p`
+  margin-bottom: 35px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+  max-width: 440px;
+  @media screen and (max-width: 480px) {
+    font-size: 1.2rem;
+  }
 `;
 
 export const BtnGrp = styled.div`

@@ -22,8 +22,8 @@ const Hero = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        {/*<Img src={require('../../images/head.jpg')} alt="Open source" />*/}
-         <VideoBg autoPlay muted loop src={require('../../video (2).mp4')} type="video/mp4" /> 
+        <Img src={require('../../images/head.jpg')} alt="Open source" />
+         {/* <VideoBg autoPlay muted loop src={require('../../video (2).mp4')} type="video/mp4" />  */}
       </HeroBg>
       <HeroContent>
         <HeroH1>OSS UNA</HeroH1>
